@@ -1,0 +1,19 @@
+body{
+    color: white;
+    background-color: dimgray;
+  
+}
+#counterContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#counterButton{
+    padding: 0.8rem 2rem;
+ font-size: 2rem;
+    background-color: aqua;
+    border-radius: 20px;
+
+
+}
