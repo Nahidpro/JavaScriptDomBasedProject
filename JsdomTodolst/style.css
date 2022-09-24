@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #b3b6b7;
+
+}
+
+#TodoListContainer {
+  margin: 0 auto;
+  width: 30%;
+  padding: 5rem 3rem;
+  background-color: #f4ecf7;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 6px 6px 26px -4px rgba(0, 0, 0, 0.67);
+  -webkit-box-shadow: 6px 6px 26px -4px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 6px 6px 26px -4px rgba(0, 0, 0, 0.67);
+}
+
+#addtodo {
+  background-color:#fdfefe;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 0.2rem;
+  box-shadow: -6px 3px 26px 0px rgba(0, 0, 0, 0.78);
+  -webkit-box-shadow: -6px 3px 26px 0px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: -6px 3px 26px 0px rgba(0, 0, 0, 0.78);
+}
+
+input {
+  padding: 0.8rem 1rem;
+  border-radius: 0.2rem;
+  border: none;
+  margin: 0.2rem;
+  background-color: #D0D3D4;
+}
+#SubmitButton{
+  background-color: #0d6efd;
+  color: white;
+}
+
+input:focus {
+  background-color: #d0d3d4;
+}
+
+#TodoCard {
+  background-color: #fdfefe;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.2rem;
+  box-shadow: -6px 3px 26px 0px rgba(0, 0, 0, 0.78);
+  -webkit-box-shadow: -6px 3px 26px 0px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: -6px 3px 26px 0px rgba(0, 0, 0, 0.78);
+}
+#TodoCard  button{
+  padding: 0.3rem 1rem;
+  margin: 0.2rem;
+
+}
+#todotext{
+  padding: 0.3rem;
+  margin: 0.2rem;
+}
+#TodoCardButton{
+  display: flex;
+  justify-content: right;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+
+
+}
+#DeleteButton{
+  background-color: red;
+  color: #f4ecf7;
+}
+
